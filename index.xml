@@ -7,8 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0300</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Interpretable Latent Spaces for Learning from Demonstration</title>
+      <link>https://yordanh.github.io/publication/corl18/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://yordanh.github.io/publication/corl18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grounding Symbols in Multi-Modal Instructions</title>
+      <link>https://yordanh.github.io/publication/acl17/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0300</pubDate>
+      
+      <guid>https://yordanh.github.io/publication/acl17/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

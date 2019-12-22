@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -16,10 +15,10 @@
   
     
   
-  <meta name="description" content="PhD Student">
+  <meta name="description" content="As robots begin to cohabit with humans in semi-structured environments, the need arises to understand instructions involving rich variability---for instance, learning to ground symbols in the physical world. Realistically, this task must cope with small datasets consisting of a particular users&#39; contextual assignment of meaning to terms. We present a method for processing a raw stream of cross-modal input---i.e., linguistic instructions, visual perception of a scene and a concurrent trace of 3D eye tracking fixations---to produce the segmentation of objects with a correspondent association to high-level concepts. To test our framework we present experiments in a table-top object manipulation scenario. Our results show our model learns the user&#39;s notion of colour and shape from a small number of physical demonstrations, generalising to identifying physical referents for novel combinations of the words.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://yordanh.github.io/">
+  <link rel="alternate" hreflang="en-us" href="https://yordanh.github.io/publication/acl17/">
 
   
 
@@ -87,7 +86,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://yordanh.github.io/">
+  <link rel="canonical" href="https://yordanh.github.io/publication/acl17/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -95,26 +94,28 @@
   <meta property="twitter:creator" content="@jshristov">
   
   <meta property="og:site_name" content="Yordan Hristov&#39;s Personal Page">
-  <meta property="og:url" content="https://yordanh.github.io/">
-  <meta property="og:title" content="Yordan Hristov&#39;s Personal Page">
-  <meta property="og:description" content="PhD Student">
+  <meta property="og:url" content="https://yordanh.github.io/publication/acl17/">
+  <meta property="og:title" content="Grounding Symbols in Multi-Modal Instructions | Yordan Hristov&#39;s Personal Page">
+  <meta property="og:description" content="As robots begin to cohabit with humans in semi-structured environments, the need arises to understand instructions involving rich variability---for instance, learning to ground symbols in the physical world. Realistically, this task must cope with small datasets consisting of a particular users&#39; contextual assignment of meaning to terms. We present a method for processing a raw stream of cross-modal input---i.e., linguistic instructions, visual perception of a scene and a concurrent trace of 3D eye tracking fixations---to produce the segmentation of objects with a correspondent association to high-level concepts. To test our framework we present experiments in a table-top object manipulation scenario. Our results show our model learns the user&#39;s notion of colour and shape from a small number of physical demonstrations, generalising to identifying physical referents for novel combinations of the words.">
   
   
     
   <meta property="og:image" content="https://yordanh.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2017-10-15T00:00:00&#43;03:00">
+  <meta property="article:published_time" content="2017-06-01T00:00:00&#43;03:00">
+  
+  <meta property="article:modified_time" content="2017-06-01T00:00:00&#43;03:00">
   
 
   
 
   
 
-  <title>Yordan Hristov&#39;s Personal Page</title>
+  <title>Grounding Symbols in Multi-Modal Instructions | Yordan Hristov&#39;s Personal Page</title>
 
 </head>
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
 
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
   <div class="container">
@@ -145,7 +146,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#about" data-target="#about">
+          <a class="nav-link" href="/#about">
             
             <span>Home</span>
             
@@ -164,7 +165,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#publications_selected" data-target="#publications_selected">
+          <a class="nav-link" href="/#publications_selected">
             
             <span>Publications</span>
             
@@ -185,10 +186,7 @@
   </div>
 </nav>
 
-
-
-<span id="homepage" style="display: none"></span>
-
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
 
@@ -196,205 +194,177 @@
 
 
 
+
+
+
+
+
+
+
+  
+
   
   
   
-  <section id="about" class="home-section">
-    <div class="container">
-      
+<div class="article-container pt-3">
+  <h1 itemprop="name">Grounding Symbols in Multi-Modal Instructions</h1>
 
+  
 
-
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-address">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
-
-      
-      <img class="portrait" src="/img/avatar.png" itemprop="image" alt="Avatar">
-      
-
-      <div class="portrait-title">
-        <h2 itemprop="name">Yordan Hristov</h2>
-        <h3 itemprop="jobTitle">PhD Student</h3>
-
-        
-        
-
-        
-        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-          
-          <span itemprop="name">The University of Edinburgh</span>
-          
-        </h3>
-        
-      </div>
-
-      <link itemprop="url" href="https://yordanh.github.io/">
-
-      <ul class="network-icon" aria-hidden="true">
-        
-        
-        
-        
-          
-        
-        <li>
-          <a itemprop="sameAs" href="mailto:yordan.hristov@ed.ac.uk" target="_blank" rel="noopener">
-            <i class="fas fa-envelope big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        <li>
-          <a itemprop="sameAs" href="//twitter.com/jshristov" target="_blank" rel="noopener">
-            <i class="fab fa-twitter big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        <li>
-          <a itemprop="sameAs" href="https://scholar.google.ch/citations?user=JNTNmT4AAAAJ&amp;hl=en" target="_blank" rel="noopener">
-            <i class="ai ai-google-scholar big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        <li>
-          <a itemprop="sameAs" href="//github.com/yordanh" target="_blank" rel="noopener">
-            <i class="fab fa-github big-icon"></i>
-          </a>
-        </li>
-        
-      </ul>
-
-    </div>
-  </div>
-  <div class="col-12 col-lg-8" itemprop="description">
-
+  
     
 
-<h1 id="biography">Biography</h1>
+<div class="article-metadata">
 
-<p>My research interests are related to the field of Human Robot Interaction (HRI). I examining how the use of restricted natural language instructions on the human expert&rsquo;s side can be used to provide guidance to a robotic agent and thus reder its learning process more sample-efficient, safer and more interpretable. I am currently working on methods that learn low-dimensional vector representations from high-level sensory input, in which high-level semantic concepts, that are manifested in the sensory input, keep their properties. Eventually such representations can be used for reward specification that is part of an RL-loop.</p>
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Yordan Hristov">
+  </span>
+  
 
+  <span class="article-date">
+    
+    <meta content="2017-06-01 00:00:00 &#43;0300 EEST" itemprop="datePublished">
+    <time datetime="2017-06-01 00:00:00 &#43;0300 EEST" itemprop="dateModified">
+      Jun 1, 2017
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Yordan Hristov">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    0 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Grounding%20Symbols%20in%20Multi-Modal%20Instructions&amp;url=https%3a%2f%2fyordanh.github.io%2fpublication%2facl17%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fyordanh.github.io%2fpublication%2facl17%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fyordanh.github.io%2fpublication%2facl17%2f&amp;title=Grounding%20Symbols%20in%20Multi-Modal%20Instructions"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fyordanh.github.io%2fpublication%2facl17%2f&amp;title=Grounding%20Symbols%20in%20Multi-Modal%20Instructions"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Grounding%20Symbols%20in%20Multi-Modal%20Instructions&amp;body=https%3a%2f%2fyordanh.github.io%2fpublication%2facl17%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">As robots begin to cohabit with humans in semi-structured environments, the need arises to understand instructions involving rich variability&mdash;for instance, learning to ground symbols in the physical world. Realistically, this task must cope with small datasets consisting of a particular users&rsquo; contextual assignment of meaning to terms. We present a method for processing a raw stream of cross-modal input&mdash;i.e., linguistic instructions, visual perception of a scene and a concurrent trace of 3D eye tracking fixations&mdash;to produce the segmentation of objects with a correspondent association to high-level concepts. To test our framework we present experiments in a table-top object manipulation scenario. Our results show our model learns the user&rsquo;s notion of colour and shape from a small number of physical demonstrations, generalising to identifying physical referents for novel combinations of the words.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">ACL workshop Language Grounding for Robotics, Vancouver, Canada</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
     <div class="row">
-
-      
-      <div class="col-md-5">
-        <h3>Interests</h3>
-        <ul class="ul-interests">
-          
-          <li>Robot Task Learning</li>
-          
-          <li>Human-Robot Interaction</li>
-          
-          <li>Learning Symbol Grounding, Composition &amp; Abstraction</li>
-          
-        </ul>
-      </div>
-      
-
-      
-      <div class="col-md-7">
-        <h3>Education</h3>
-        <ul class="ul-edu fa-ul">
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">PhD, Robust Autonomy and Decisions group, IPAB, 2020</p>
-              <p class="institution">University of Edinburgh</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">BSc with Honours in Computer Science, 2016</p>
-              <p class="institution">University of Edinburgh</p>
-            </div>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </div>
-  </div>
-</div>
-
-    </div>
-  </section>
-  
-
-  
-  
-  
-  <section id="publications" class="home-section">
-    <div class="container">
-      
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Publications</h1>
-    
-    
-  </div>
-  <div class="col-12 col-lg-8">
-    
-
-    
-      
-    
-
-    
-
-    
-    
-      
-        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="/publication/corl18/" itemprop="url">Interpretable Latent Spaces for Learning from Demonstration</a>
-    </h3>
-
-    
-    
-      
-    
-    
-    <div class="article-style" itemprop="articleBody">
-      Effective human-robot interaction, such as in robot learning from human demonstration, requires the learning agent to be able to ground …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-      <div itemprop="author">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9" itemprop="datePublished">
+            June, 2017
+          </div>
         </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-sm-none space-below"></div>
 
-    <div class="talk-links">
-      
+    <div class="row" style="padding-top: 10px">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading" style="line-height:34px;">Links</div>
+          <div class="col-12 col-md-9">
+
+            
 
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1807.06583v2.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/1706.00355" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -413,83 +383,23 @@
 
 
 
-    </div>
 
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-      
-    
-      
-        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="/publication/acl17/" itemprop="url">Grounding Symbols in Multi-Modal Instructions</a>
-    </h3>
-
-    
-    
-      
-    
-    
-    <div class="article-style" itemprop="articleBody">
-      As robots begin to cohabit with humans in semi-structured environments, the need arises to understand instructions involving rich …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-      <div itemprop="author">
+          </div>
         </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-sm-none space-below"></div>
 
-    <div class="talk-links">
-      
+    <div class="space-below"></div>
 
+    <div class="article-style"></div>
 
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1706.00355" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-
-  </div>
-  <div class="ml-3">
     
-    
-  </div>
-</div>
 
-      
-    
 
   </div>
 </div>
-
-    </div>
-  </section>
-  
 
 
 
@@ -631,5 +541,4 @@
 
   </body>
 </html>
-
 

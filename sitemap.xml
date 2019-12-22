@@ -4,8 +4,24 @@
     
     <url>
     
+      <loc>https://yordanh.github.io/publication/corl18/</loc>
+      <lastmod>2018-10-29T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://yordanh.github.io/publication/acl17/</loc>
+      <lastmod>2017-06-01T00:00:00+03:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://yordanh.github.io/post/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+02:00</lastmod>
     </url>
     
   
@@ -13,7 +29,7 @@
     <url>
     
       <loc>https://yordanh.github.io/publication/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+02:00</lastmod>
     </url>
     
   
@@ -21,7 +37,16 @@
     <url>
     
       <loc>https://yordanh.github.io/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://yordanh.github.io/publication_types/1/</loc>
+      <lastmod>2018-10-29T00:00:00+02:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -37,6 +62,7 @@
     <url>
     
       <loc>https://yordanh.github.io/publication_types/</loc>
+      <lastmod>2018-10-29T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -53,7 +79,7 @@
     <url>
     
       <loc>https://yordanh.github.io/</loc>
-      <lastmod>2017-10-15T00:00:00+02:00</lastmod>
+      <lastmod>2017-10-15T00:00:00+03:00</lastmod>
       <priority>0</priority>
     </url>
     
