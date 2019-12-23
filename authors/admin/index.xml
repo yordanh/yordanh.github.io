@@ -33,6 +33,16 @@
     </item>
     
     <item>
+      <title>Using Causal Analysis to Learn Specifications from Task Demonstrations</title>
+      <link>https://yordanh.guthub.io/publication/aamas19/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://yordanh.guthub.io/publication/aamas19/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Display Jupyter Notebooks with Academic</title>
       <link>https://yordanh.guthub.io/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
@@ -68,6 +78,16 @@ date: 2019-09-01
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
 &lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DynoPlan: Combining Motion Planning and Deep Neural Network based Controllers for Safe HRL</title>
+      <link>https://yordanh.guthub.io/publication/rldm19/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://yordanh.guthub.io/publication/rldm19/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
 </description>
     </item>
     
