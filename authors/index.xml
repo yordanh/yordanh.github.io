@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Academic</title>
+    <link>https://yordanh.guthub.io/authors/</link>
+      <atom:link href="https://yordanh.guthub.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 30 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yordanh.guthub.io/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>https://yordanh.guthub.io/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://yordanh.guthub.io/authors/admin/</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://yordanh.guthub.io/authors/admin/</guid>
+      <description>&lt;p&gt;I am a PhD student at the Robust Autonomy and Decisions group, part of the Insitute for Perception, Action and Behaviour at the University of Edinburgh. I am supervised by Dr. Subramanian Ramamoorthy and Prof. Alex Lascarides.&lt;/p&gt;
+&lt;p&gt;My research interests are related to the field of Human-Robot Interaction, focussing on methods that allow human experts to speed up learning for robotic agents. Naturally humans can use multiple modalities of information to teach the agents certain task-specific knowledge that is crucial for the low sample complexity of the learning process. Thus, the challenge is to bridge the high-level semantic space in which the experts reason with the low-level state/action space in which the agents operate.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alex Lascarides</title>
+      <link>https://yordanh.guthub.io/authors/alex-lascarides/</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://yordanh.guthub.io/authors/alex-lascarides/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Daniel Angelov</title>
+      <link>https://yordanh.guthub.io/authors/daniel-angelov/</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://yordanh.guthub.io/authors/daniel-angelov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michael Burke</title>
+      <link>https://yordanh.guthub.io/authors/michael-burke/</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://yordanh.guthub.io/authors/michael-burke/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Subramanian Ramamoorthy</title>
+      <link>https://yordanh.guthub.io/authors/subramanian-ramamoorthy/</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://yordanh.guthub.io/authors/subramanian-ramamoorthy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Svetlin Penkov</title>
+      <link>https://yordanh.guthub.io/authors/svetlin-penkov/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>https://yordanh.guthub.io/authors/svetlin-penkov/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

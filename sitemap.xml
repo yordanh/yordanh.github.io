@@ -1,87 +1,189 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-    <url>
-    
-      <loc>https://yordanh.github.io/publication/corl18/</loc>
-      <lastmod>2018-10-29T00:00:00+02:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://yordanh.guthub.io/courses/example/example1/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://yordanh.github.io/publication/acl17/</loc>
-      <lastmod>2017-06-01T00:00:00+03:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://yordanh.guthub.io/courses/example/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://yordanh.github.io/post/</loc>
-      <lastmod>2017-01-01T00:00:00+02:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://yordanh.guthub.io/courses/example/example2/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://yordanh.github.io/publication/</loc>
-      <lastmod>2017-01-01T00:00:00+02:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://yordanh.guthub.io/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://yordanh.github.io/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+02:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://yordanh.guthub.io/talk/example/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://yordanh.github.io/publication_types/1/</loc>
-      <lastmod>2018-10-29T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://yordanh.guthub.io/authors/admin/</loc>
+    <lastmod>2019-12-23T12:42:52+02:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://yordanh.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://yordanh.guthub.io/publication_types/1/</loc>
+    <lastmod>2019-12-23T12:42:52+02:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://yordanh.github.io/publication_types/</loc>
-      <lastmod>2018-10-29T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://yordanh.guthub.io/authors/alex-lascarides/</loc>
+    <lastmod>2019-12-23T12:42:52+02:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://yordanh.github.io/tags/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://yordanh.guthub.io/authors/</loc>
+    <lastmod>2019-12-23T12:42:52+02:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://yordanh.github.io/</loc>
-      <lastmod>2017-10-15T00:00:00+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://yordanh.guthub.io/authors/daniel-angelov/</loc>
+    <lastmod>2019-12-23T12:42:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/publication/corl19-explain-n-repeat/</loc>
+    <lastmod>2019-12-23T12:42:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/authors/michael-burke/</loc>
+    <lastmod>2019-12-23T12:42:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/publication_types/</loc>
+    <lastmod>2019-12-23T12:42:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/tags/source-themes/</loc>
+    <lastmod>2019-12-23T12:42:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/authors/subramanian-ramamoorthy/</loc>
+    <lastmod>2019-12-23T12:42:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/tags/</loc>
+    <lastmod>2019-12-23T12:42:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/publication/corl19-sdn/</loc>
+    <lastmod>2019-12-23T12:42:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/post/writing-technical-content/</loc>
+    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/post/jupyter/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/slides/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/slides/example/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/publication/corl18/</loc>
+    <lastmod>2019-12-23T12:42:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/publication/acl17/</loc>
+    <lastmod>2019-12-23T12:42:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/authors/svetlin-penkov/</loc>
+    <lastmod>2019-12-23T12:42:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/tags/deep-learning/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/tags/demo/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/project/external-project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/project/internal-project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/tags/academic/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/post/getting-started/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/categories/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/categories/demo/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/courses/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/post/</loc>
+    <lastmod>2018-10-14T02:15:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/publication/</loc>
+    <lastmod>2019-12-23T12:42:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/talk/</loc>
+    <lastmod>2018-10-14T02:15:45+01:00</lastmod>
+  </url>
   
 </urlset>

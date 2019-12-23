@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on Yordan Hristov&#39;s Personal Page</title>
-    <link>https://yordanh.github.io/home/</link>
-    <description>Recent content in Homes on Yordan Hristov&#39;s Personal Page</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0300</lastBuildDate>
-    
-	<atom:link href="https://yordanh.github.io/home/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Homes | Academic</title>
+    <link>https://masenov.com/home/</link>
+      <atom:link href="https://masenov.com/home/index.xml" rel="self" type="application/rss+xml" />
+    <description>Homes</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0300</lastBuildDate>
+    <image>
+      <url>https://masenov.com/img/icon-192.png</url>
+      <title>Homes</title>
+      <link>https://masenov.com/home/</link>
+    </image>
     
     <item>
       <title></title>
-      <link>https://yordanh.github.io/home/hero_carousel/</link>
+      <link>https://masenov.com/home/hero_carousel/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0300</pubDate>
-      
-      <guid>https://yordanh.github.io/home/hero_carousel/</guid>
+      <guid>https://masenov.com/home/hero_carousel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Academic</title>
-      <link>https://yordanh.github.io/home/hero/</link>
+      <link>https://masenov.com/home/hero/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0300</pubDate>
-      
-      <guid>https://yordanh.github.io/home/hero/</guid>
-      <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release   Star</description>
+      <guid>https://masenov.com/home/hero/</guid>
+      <description>&lt;p&gt;The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yordanh.github.io/home/about/</link>
+      <link>https://masenov.com/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
-      
-      <guid>https://yordanh.github.io/home/about/</guid>
-      <description>Biography My research interests are related to the field of Human Robot Interaction (HRI). I examining how the use of restricted natural language instructions on the human expert&amp;rsquo;s side can be used to provide guidance to a robotic agent and thus reder its learning process more sample-efficient, safer and more interpretable. I am currently working on methods that learn low-dimensional vector representations from high-level sensory input, in which high-level semantic concepts, that are manifested in the sensory input, keep their properties.</description>
+      <guid>https://masenov.com/home/about/</guid>
+      <description>&lt;h1 id=&#34;biography&#34;&gt;Biography&lt;/h1&gt;
+&lt;p&gt;My research interests are related to the field of Human-Robot Interaction, focussing on meth- ods that allow human experts to speed up learning for robotic agents. Naturally humans can use multiple modalities of information to teach the agents certain task-specific knowledge that is crucial for the low sample complexity of the learning process. Thus, the challenge is to bridge the high-level semantic space in which the experts reason with the low-level state/action space in which the agents operate.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>https://yordanh.github.io/home/publications/</link>
+      <link>https://masenov.com/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
-      
-      <guid>https://yordanh.github.io/home/publications/</guid>
+      <guid>https://masenov.com/home/publications/</guid>
       <description></description>
     </item>
     

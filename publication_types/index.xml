@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publication_types on Yordan Hristov&#39;s Personal Page</title>
-    <link>https://yordanh.github.io/publication_types/</link>
-    <description>Recent content in Publication_types on Yordan Hristov&#39;s Personal Page</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 29 Oct 2018 00:00:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://yordanh.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Publication_types | Academic</title>
+    <link>https://yordanh.guthub.io/publication_types/</link>
+      <atom:link href="https://yordanh.guthub.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_types</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 30 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yordanh.guthub.io/img/icon-192.png</url>
+      <title>Publication_types</title>
+      <link>https://yordanh.guthub.io/publication_types/</link>
+    </image>
     
     <item>
       <title>1</title>
-      <link>https://yordanh.github.io/publication_types/1/</link>
-      <pubDate>Mon, 29 Oct 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://yordanh.github.io/publication_types/1/</guid>
+      <link>https://yordanh.guthub.io/publication_types/1/</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://yordanh.guthub.io/publication_types/1/</guid>
       <description></description>
     </item>
     
