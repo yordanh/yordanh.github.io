@@ -17,7 +17,7 @@
       <link>https://yordanh.guthub.io/authors/admin/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://yordanh.guthub.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a PhD student at the Robust Autonomy and Decisions group, part of the Insitute for Perception, Action and Behaviour at the University of Edinburgh. I am supervised by Dr. Subramanian Ramamoorthy and Prof. Alex Lascarides.&lt;/p&gt;
+      <description>&lt;p&gt;PhD student at the &lt;a href=&#34;http://rad.inf.ed.ac.uk&#34;&gt;Robust Autonomy and Decisions group&lt;/a&gt;, part of the &lt;a href=&#34;http://web.inf.ed.ac.uk/ipab&#34;&gt;Insitute for Perception, Action and Behaviour&lt;/a&gt; at the University of Edinburgh. I am supervised by &lt;a href=&#34;https://www.edinburgh-robotics.org/academics/subramanian-ramamoorthy&#34;&gt;Dr. Subramanian Ramamoorthy&lt;/a&gt; and &lt;a href=&#34;http://homepages.inf.ed.ac.uk/alex/&#34;&gt;Prof. Alex Lascarides&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;My research interests are related to the field of Human-Robot Interaction, focussing on methods that allow human experts to speed up learning for robotic agents. Naturally humans can use multiple modalities of information to teach the agents certain task-specific knowledge that is crucial for the low sample complexity of the learning process. Thus, the challenge is to bridge the high-level semantic space in which the experts reason with the low-level state/action space in which the agents operate.&lt;/p&gt;
 </description>
     </item>
