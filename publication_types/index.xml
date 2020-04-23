@@ -5,12 +5,20 @@
     <link>https://yordanh.guthub.io/publication_types/</link>
       <atom:link href="https://yordanh.guthub.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 30 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Apr 2020 23:00:06 +0100</lastBuildDate>
     <image>
       <url>https://yordanh.guthub.io/img/icon-192.png</url>
       <title>Publication_types</title>
       <link>https://yordanh.guthub.io/publication_types/</link>
     </image>
+    
+    <item>
+      <title>2</title>
+      <link>https://yordanh.guthub.io/publication_types/2/</link>
+      <pubDate>Mon, 20 Apr 2020 23:00:06 +0100</pubDate>
+      <guid>https://yordanh.guthub.io/publication_types/2/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>1</title>

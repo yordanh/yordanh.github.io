@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Academic</title>
+    <link>https://yordanh.guthub.io/publication_types/2/</link>
+      <atom:link href="https://yordanh.guthub.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Apr 2020 23:00:06 +0100</lastBuildDate>
+    <image>
+      <url>https://yordanh.guthub.io/img/icon-192.png</url>
+      <title>2</title>
+      <link>https://yordanh.guthub.io/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>Composing Diverse Policies for Temporally Extended Tasks</title>
+      <link>https://yordanh.guthub.io/publication/ral20/</link>
+      <pubDate>Mon, 20 Apr 2020 23:00:06 +0100</pubDate>
+      <guid>https://yordanh.guthub.io/publication/ral20/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
