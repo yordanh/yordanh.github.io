@@ -3,63 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yordanh.guthub.io/courses/example/example1/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yordanh.guthub.io/courses/example/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yordanh.guthub.io/courses/example/example2/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yordanh.guthub.io/authors/admin/</loc>
-    <lastmod>2020-04-20T23:00:06+01:00</lastmod>
+    <lastmod>2020-04-23T15:24:27+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://yordanh.guthub.io/publication_types/2/</loc>
-    <lastmod>2020-04-20T23:00:06+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yordanh.guthub.io/</loc>
-    <lastmod>2020-04-20T23:00:06+01:00</lastmod>
+    <lastmod>2020-04-23T15:24:27+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://yordanh.guthub.io/authors/</loc>
-    <lastmod>2020-04-20T23:00:06+01:00</lastmod>
+    <lastmod>2020-04-23T15:24:27+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://yordanh.guthub.io/publication/ral20/</loc>
-    <lastmod>2020-04-20T23:00:06+01:00</lastmod>
+    <lastmod>2020-04-23T15:24:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yordanh.guthub.io/authors/daniel-angelov/</loc>
+    <lastmod>2020-04-23T15:24:27+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://yordanh.guthub.io/authors/michael-burke/</loc>
-    <lastmod>2020-04-20T23:00:06+01:00</lastmod>
+    <lastmod>2020-04-23T15:24:27+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://yordanh.guthub.io/publication_types/</loc>
-    <lastmod>2020-04-20T23:00:06+01:00</lastmod>
+    <lastmod>2020-04-23T15:24:27+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://yordanh.guthub.io/authors/subramanian-ramamoorthy/</loc>
-    <lastmod>2020-04-20T23:00:06+01:00</lastmod>
+    <lastmod>2020-04-23T15:24:27+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yordanh.guthub.io/authors/yordan-hristov/</loc>
-    <lastmod>2020-04-20T23:00:06+01:00</lastmod>
+    <loc>https://yordanh.guthub.io/</loc>
+    <lastmod>2020-04-23T15:24:27+01:00</lastmod>
   </url>
   
   <url>
@@ -79,11 +64,6 @@
   
   <url>
     <loc>https://yordanh.guthub.io/authors/alex-lascarides/</loc>
-    <lastmod>2019-12-23T18:45:35+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yordanh.guthub.io/authors/daniel-angelov/</loc>
     <lastmod>2019-12-23T18:45:35+02:00</lastmod>
   </url>
   
@@ -153,31 +133,6 @@
   </url>
   
   <url>
-    <loc>https://yordanh.guthub.io/tags/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yordanh.guthub.io/tags/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yordanh.guthub.io/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yordanh.guthub.io/project/internal-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yordanh.guthub.io/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yordanh.guthub.io/tags/academic/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
@@ -195,10 +150,6 @@
   <url>
     <loc>https://yordanh.guthub.io/categories/demo/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yordanh.guthub.io/courses/</loc>
   </url>
   
   <url>

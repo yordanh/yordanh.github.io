@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags | Academic</title>
+    <title>Tags | Yordan Hristov</title>
     <link>https://yordanh.guthub.io/tags/</link>
       <atom:link href="https://yordanh.guthub.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
@@ -17,22 +17,6 @@
       <link>https://yordanh.guthub.io/tags/paper/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://yordanh.guthub.io/tags/paper/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>https://yordanh.guthub.io/tags/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Demo</title>
-      <link>https://yordanh.guthub.io/tags/demo/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/tags/demo/</guid>
       <description></description>
     </item>
     

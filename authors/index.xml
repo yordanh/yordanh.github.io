@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | Academic</title>
+    <title>Authors | Yordan Hristov</title>
     <link>https://yordanh.guthub.io/authors/</link>
       <atom:link href="https://yordanh.guthub.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
@@ -23,6 +23,14 @@
     </item>
     
     <item>
+      <title>Daniel Angelov</title>
+      <link>https://yordanh.guthub.io/authors/daniel-angelov/</link>
+      <pubDate>Mon, 20 Apr 2020 23:00:06 +0100</pubDate>
+      <guid>https://yordanh.guthub.io/authors/daniel-angelov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Michael Burke</title>
       <link>https://yordanh.guthub.io/authors/michael-burke/</link>
       <pubDate>Mon, 20 Apr 2020 23:00:06 +0100</pubDate>
@@ -39,26 +47,10 @@
     </item>
     
     <item>
-      <title>Yordan Hristov</title>
-      <link>https://yordanh.guthub.io/authors/yordan-hristov/</link>
-      <pubDate>Mon, 20 Apr 2020 23:00:06 +0100</pubDate>
-      <guid>https://yordanh.guthub.io/authors/yordan-hristov/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Alex Lascarides</title>
       <link>https://yordanh.guthub.io/authors/alex-lascarides/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://yordanh.guthub.io/authors/alex-lascarides/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Daniel Angelov</title>
-      <link>https://yordanh.guthub.io/authors/daniel-angelov/</link>
-      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/authors/daniel-angelov/</guid>
       <description></description>
     </item>
     
