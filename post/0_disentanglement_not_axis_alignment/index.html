@@ -29,6 +29,7 @@
     
   
   <meta name="description" content="TL;DR - The bottleneck layer of a VAE might be disentangled, up to a rotation, which might make it look entangled upon the standard visual inspection following a linear latent axis interpolation. An additional PCA step could be all one needs.
+Sugggestion - read the article with a light background for better experience.
  Preface There are multiple metrics, scores and frameworks in the existing literature which can be used to get a quantitative measure of how disentangled a given vector space $\mathbf{z}$ is.">
 
   
@@ -264,13 +265,14 @@
   <meta property="og:url" content="https://yordanh.guthub.io/post/0_disentanglement_not_axis_alignment/">
   <meta property="og:title" content="Disentanglement != Axis Alignment | Yordan Hristov">
   <meta property="og:description" content="TL;DR - The bottleneck layer of a VAE might be disentangled, up to a rotation, which might make it look entangled upon the standard visual inspection following a linear latent axis interpolation. An additional PCA step could be all one needs.
+Sugggestion - read the article with a light background for better experience.
  Preface There are multiple metrics, scores and frameworks in the existing literature which can be used to get a quantitative measure of how disentangled a given vector space $\mathbf{z}$ is."><meta property="og:image" content="https://yordanh.guthub.io/post/0_disentanglement_not_axis_alignment/featured.png">
   <meta property="twitter:image" content="https://yordanh.guthub.io/post/0_disentanglement_not_axis_alignment/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2019-07-12T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2020-07-06T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-07-03T17:01:38&#43;01:00">
+    <meta property="article:modified_time" content="2020-07-07T19:10:04&#43;01:00">
   
 
   
@@ -304,8 +306,8 @@
     "https://yordanh.guthub.io/post/0_disentanglement_not_axis_alignment/featured.png"
   ],
   
-  "datePublished": "2019-07-12T00:00:00Z",
-  "dateModified": "2020-07-03T17:01:38+01:00",
+  "datePublished": "2020-07-06T00:00:00Z",
+  "dateModified": "2020-07-07T19:10:04+01:00",
   
   "author": {
     "@type": "Person",
@@ -320,7 +322,7 @@
       "url": "https://yordanh.guthub.io/img/icon-512.png"
     }
   },
-  "description": "TL;DR - The bottleneck layer of a VAE might be disentangled, up to a rotation, which might make it look entangled upon the standard visual inspection following a linear latent axis interpolation. An additional PCA step could be all one needs.\n Preface There are multiple metrics, scores and frameworks in the existing literature which can be used to get a quantitative measure of how disentangled a given vector space $\\mathbf{z}$ is."
+  "description": "TL;DR - The bottleneck layer of a VAE might be disentangled, up to a rotation, which might make it look entangled upon the standard visual inspection following a linear latent axis interpolation. An additional PCA step could be all one needs.\nSugggestion - read the article with a light background for better experience.\n Preface There are multiple metrics, scores and frameworks in the existing literature which can be used to get a quantitative measure of how disentangled a given vector space $\\mathbf{z}$ is."
 }
 </script>
 
@@ -681,7 +683,7 @@
           Last updated on
       
     
-    Jul 3, 2020
+    Jul 7, 2020
   </span>
   
 
@@ -690,7 +692,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    6 min read
+    7 min read
   </span>
   
 
@@ -738,11 +740,12 @@
     <div class="article-style">
       <hr>
 <p><strong>TL;DR</strong> - The bottleneck layer of a VAE might be <strong>disentangled, up to a rotation</strong>, which might make it look entangled upon the standard visual inspection following a linear latent axis interpolation. An additional PCA step could be all one needs.</p>
+<p><em>Sugggestion</em> - read the article with a light background for better experience.</p>
 <hr>
 <h2 id="preface">Preface</h2>
 <!-- raw HTML omitted -->
-<p>There are multiple <a href="https://openreview.net/forum?id=Sy2fzU9gl">metrics</a>, <a href="https://arxiv.org/pdf/1802.05983.pdf">scores</a> and <a href="https://openreview.net/pdf?id=By-7dz-AZ">frameworks</a> in the existing literature which can be used to get a quantitative measure of <em>how disentangled</em> a given vector space $\mathbf{z}$ is. Usually the $\mathbf{z}$ we are interested in is the bottleneck layer of a generative latent variable model - e.g. a VAE. When the model is trained on image data, often an additional visual qualitative evaluation is used as well. Each of the basis vectors spanning $\mathbf{z}$ are linearly perturbed around the origin and the reconstructed images corresponding to the series of latent perturbations are inspected as to whether they contain isolated factors of variation - abstract notions and concepts we'll call $\mathbf{c}$.</p>
-<p>Concisely, the latent space $\mathbf{z}$ of a VAE is deemed disentangled if a set of conceptually-orthogonal notions $\mathbf{c}$ are contained as a set of orthogonal vectors in $\mathbf{z}$. For example, in the image above, the notions of object size ($c_o$) and object color ($c_1$), which are conceptually-orthogonal (independent of each other), are contained in $\mathbf{z} \in \mathbb{R}^{2}$ as a pair of orthogonal vectors. Another very good and visually-supported example this recent tweet by David Pfau below:</p>
+<p>There are multiple <a href="https://openreview.net/forum?id=Sy2fzU9gl">metrics</a>, <a href="https://arxiv.org/pdf/1802.05983.pdf">scores</a> and <a href="https://openreview.net/pdf?id=By-7dz-AZ">frameworks</a> in the existing literature which can be used to get a quantitative measure of <em>how disentangled</em> a given vector space $\mathbf{z}$ is. More concretely, the vector spaces $\mathbf{z}$ considered in the context of achieving disentanglement are usually the bottleneck layer of a deep generative latent variable model - e.g. a VAE. When the model is trained on image data, often an additional visual qualitative evaluation is used - each of the standard basis vectors spanning $\mathbf{z}$ are linearly perturbed around the origin and the reconstructed images corresponding to the series of latent perturbations are inspected as to whether they contain isolated factors of variation - abstract notions and concepts we'll call $\mathbf{c}$.</p>
+<p>Concisely, the latent space $\mathbf{z}$ of a VAE is deemed disentangled if a set of conceptually-orthogonal notions $\mathbf{c}$ are contained as a set of orthogonal vectors in $\mathbf{z}$. For example, in the image above, the notions of object size ($c_o$) and object color ($c_1$), which are conceptually-orthogonal (independent of each other), are contained in $\mathbf{z} \in \mathbb{R}^{2}$ as a pair of orthogonal vectors. Another good and visually-supported example is this recent tweet by David Pfau below:</p>
 <div>
 
   <blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">&quot;Disentangling&quot; is a somewhat nebulous term in ML, but it is broadly about building models that can separate out different latent factors of variation - for instance, in vision, separating translation, rotation, and changes in lighting or color that leave objects invariant. 2/n <a href="https://t.co/w9viBryx9D">pic.twitter.com/w9viBryx9D</a></p>&mdash; David Pfau (@pfau) <a href="https://twitter.com/pfau/status/1275821516219985930?ref_src=twsrc%5Etfw">June 24, 2020</a></blockquote>
@@ -750,10 +753,10 @@
 
 
 </div>
-<p>While intuitive, there's a major assumption in that form of visual evaluation which has been emphasized in <a href="https://arxiv.org/abs/1901.07017">this paper from Watters et. al</a> - namely the assumption that the factors of variation $\mathbf{c}$ <em>align</em> with the standart basis spanning $\mathbf{z}$. As demonstrated in the paper, and below, this is not necessarily always the case.</p>
+<p>While intuitive, there's a major assumption in that form of visual evaluation which has been emphasized in <a href="https://arxiv.org/abs/1901.07017">a paper by Watters et. al</a> - the assumption that the factors of variation $\mathbf{c}$ <em>align</em> with the standard basis spanning $\mathbf{z}$. By <em>alignment</em> here we mean that there is a one-to-one correspondence between the factors of variation and the standard basis vectors of the latent space. As demonstrated in the paper, and below, this is not necessarily always the case.</p>
 <h2 id="positional-variations">Positional Variations</h2>
-<p>All experiments below are reproducing the results from the <a href="https://arxiv.org/abs/1901.07017">Spatial Broadcast Decoder paper by Watters et. al</a>. Since we want to have neat visualisations we constrain ourselves to 2D. All the data that we use is a modification of the <a href="https://github.com/deepmind/dsprites-dataset">Deepmind dSprites dataset</a>. In the first example we have an image of a single ellipse whose X and Y positions can vary - 32 possible values for each. The X and Y position variations are our $\mathbf{c} = \{c_0, c_1\}$ conceptually orthogonal notions, contained in the image pixels.</p>
-<p>The model we used is a convolutional VAE with a spatial broadcast decoder - example implementation <a href="https://github.com/yordanh/sbd-torch">here</a>. The question is whether we can have any 2 out of the 8 dimensions of $\mathbf{z}$ to represent the meaning of $\mathbf{c}$. Thus, after training, the all images are encoded and the two dimensions with smallest average variance predictions are identified as good candidates for encoding $\mathbf{c} = \{c_0, c_1\}$, following the rationale of the original paper.</p>
+<p>All experiments are aimed at reproducing some of the results from the <a href="https://arxiv.org/abs/1901.07017">Spatial Broadcast Decoder paper by Watters et. al</a>. Since we want to have neat visualisations we constrain ourselves to 2D. All the data that we use is a modification of the <a href="https://github.com/deepmind/dsprites-dataset">Deepmind dSprites dataset</a>. In the first example we have an image of a single ellipse whose X and Y positions can vary - 32 possible values for each. The X and Y position variations are the conceptually orthogonal notions $\mathbf{c} = \{c_0, c_1\}$, implicitly contained in the image pixels.</p>
+<p>The trained model is a convolutional VAE with a spatial broadcast decoder and $|\mathbf{z}|$ = 8 - example implementation <a href="https://github.com/yordanh/sbd-torch">here</a>. The question is whether we can have any 2 out of the 8 dimensions of $\mathbf{z}$ to be equivallent to $\mathbf{c}$. This is inspected in the following manner - after training, all the images are encoded and the two dimensions with smallest average variance predictions are identified as good candidates for encoding $\mathbf{c} = \{c_0, c_1\}$, following the rationale of the original paper.</p>
 
 
 
@@ -770,14 +773,14 @@
 <figure>
 
 
-  <a data-fancybox="" href="./img/data_pos.png" data-caption="Data with two factors of variation - $c_0 \equiv$ X-position (32 values, green line) and $c_1 \equiv$ Y-position (32 values, red line) of the ellipse.">
+  <a data-fancybox="" href="./img/data_pos.png" data-caption="Data with two factors of variation - $c_0 \equiv$ X-position (32 values, green line) and $c_1 \equiv$ Y-position (32 values, red line) of the ellipse; (top) random data samples from (bottom) the uniform distribution over $\mathbf{c}$">
 <img data-src="./img/data_pos.png" class="lazyload" alt="" ></a>
 
 
   
   
   <figcaption>
-    Data with two factors of variation - $c_0 \equiv$ X-position (32 values, green line) and $c_1 \equiv$ Y-position (32 values, red line) of the ellipse.
+    Data with two factors of variation - $c_0 \equiv$ X-position (32 values, green line) and $c_1 \equiv$ Y-position (32 values, red line) of the ellipse; <strong>(top)</strong> random data samples from <strong>(bottom)</strong> the uniform distribution over $\mathbf{c}$
   </figcaption>
 
 
@@ -901,7 +904,7 @@
 </figure>
 </p>
 <h3 id="beta--10">Beta = 10</h3>
-<p>One way to account for the observed rotation of the learned representations is by tuning the coefficient of the KL divergence and enforcing more independce between the latent vectors $\mathbf{z}$. For the keen, there are examples in the literature for more principled ways of enforcing such constraints - e.g. <a href="https://arxiv.org/abs/1802.04942">1</a> and <a href="http://proceedings.mlr.press/v89/esmaeili19a/esmaeili19a.pdf">2</a>. As seen below, increasing $\beta$ does lead to more consistent disentanglement and alignment - perturbing the basis vectors of $\mathbf{z}$ and the latent projections of $\mathbf{c}$ contain the same conceptual information.</p>
+<p>One way to account for the observed rotation of the learned representations is by tuning the coefficient of the KL divergence in the loss and enforcing more independce between the latent vectors $\mathbf{z}$. For the keen, there are examples in the literature for more principled ways of enforcing such constraints - e.g. <a href="https://arxiv.org/abs/1802.04942">1</a> and <a href="http://proceedings.mlr.press/v89/esmaeili19a/esmaeili19a.pdf">2</a>. As seen below, increasing $\beta$ does lead to more consistent disentanglement and alignment - perturbing the basis vectors of $\mathbf{z}$ and the latent projections of $\mathbf{c}$ contain the same conceptual information.</p>
 <p>
 
 
@@ -1038,14 +1041,14 @@
 <figure>
 
 
-  <a data-fancybox="" href="./img/data_color.png" data-caption="Data with two factors of variation - $c_0 \equiv$ Object color (32 values, green line) and $c_1 \equiv$ Background color (32 values, red line).">
+  <a data-fancybox="" href="./img/data_color.png" data-caption="Data with two factors of variation - $c_0 \equiv$ Object color (32 values, green line) and $c_1 \equiv$ Background color (32 values, red line); (top) random data samples from (bottom) the uniform distribution over $\mathbf{c}$">
 <img data-src="./img/data_color.png" class="lazyload" alt="" ></a>
 
 
   
   
   <figcaption>
-    Data with two factors of variation - $c_0 \equiv$ Object color (32 values, green line) and $c_1 \equiv$ Background color (32 values, red line).
+    Data with two factors of variation - $c_0 \equiv$ Object color (32 values, green line) and $c_1 \equiv$ Background color (32 values, red line); <strong>(top)</strong> random data samples from <strong>(bottom)</strong> the uniform distribution over $\mathbf{c}$
   </figcaption>
 
 
@@ -1169,7 +1172,7 @@
 </figure>
 </p>
 <h3 id="epochs--300-beta--1">Epochs = 300; Beta = 1</h3>
-<p>Instead of varying $\beta$, here we vary the number of training epochs. Nonetheless a similar phenomenon is illustrated - depending on how the model is optimised, the learned manifold $\mathbf{z}$ could be disentangled, even though it does not appear as such upon the standart visual inspection following a linear interpolation along the basis vectors.</p>
+<p>Instead of varying $\beta$, here we vary the number of training epochs. Nonetheless a similar phenomenon is illustrated - depending on how the model is optimised, the learned manifold $\mathbf{z}$ could be disentangled, even though it does not appear as such upon the standard visual inspection following a linear interpolation along the basis vectors.</p>
 <p>
 
 
