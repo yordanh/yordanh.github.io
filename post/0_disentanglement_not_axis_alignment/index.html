@@ -744,7 +744,7 @@ Sugggestion - read the article with a light background for better experience.
 <hr>
 <h2 id="preface">Preface</h2>
 <!-- raw HTML omitted -->
-<p>There are multiple <a href="https://openreview.net/forum?id=Sy2fzU9gl">metrics</a>, <a href="https://arxiv.org/pdf/1802.05983.pdf">scores</a> and <a href="https://openreview.net/pdf?id=By-7dz-AZ">frameworks</a> in the existing literature which can be used to get a quantitative measure of <em>how disentangled</em> a given vector space $\mathbf{z}$ is. More concretely, the vector spaces $\mathbf{z}$ considered in the context of achieving disentanglement are usually the bottleneck layer of a deep generative latent variable model - e.g. a VAE. When the model is trained on image data, often an additional visual qualitative evaluation is used - each of the standard basis vectors spanning $\mathbf{z}$ are linearly perturbed around the origin and the reconstructed images corresponding to the series of latent perturbations are inspected as to whether they contain isolated factors of variation - abstract notions and concepts we'll call $\mathbf{c}$.</p>
+<p>There are multiple <a href="https://openreview.net/forum?id=Sy2fzU9gl">metrics</a>, <a href="https://arxiv.org/pdf/1802.05983.pdf">scores</a> and <a href="https://openreview.net/pdf?id=By-7dz-AZ">frameworks</a> in the existing literature which can be used to get a quantitative measure of <em>how <a href="https://deepai.org/machine-learning-glossary-and-terms/disentangled-representation-learning">disentangled</a></em> a given vector space $\mathbf{z}$ is. More concretely, the vector spaces $\mathbf{z}$ considered in the context of achieving disentanglement are usually the bottleneck layer of a deep generative latent variable model - e.g. a VAE. When the model is trained on image data, often an additional visual qualitative evaluation is used - each of the standard basis vectors spanning $\mathbf{z}$ are linearly perturbed around the origin and the reconstructed images corresponding to the series of latent perturbations are inspected as to whether they contain isolated factors of variation - abstract notions and concepts we'll call $\mathbf{c}$.</p>
 <p>Concisely, the latent space $\mathbf{z}$ of a VAE is deemed disentangled if a set of conceptually-orthogonal notions $\mathbf{c}$ are contained as a set of orthogonal vectors in $\mathbf{z}$. For example, in the image above, the notions of object size ($c_o$) and object color ($c_1$), which are conceptually-orthogonal (independent of each other), are contained in $\mathbf{z} \in \mathbb{R}^{2}$ as a pair of orthogonal vectors. Another good and visually-supported example is this recent tweet by David Pfau below:</p>
 <div>
 
@@ -753,10 +753,9 @@ Sugggestion - read the article with a light background for better experience.
 
 
 </div>
-<p>While intuitive, there's a major assumption in that form of visual evaluation which has been emphasized in <a href="https://arxiv.org/abs/1901.07017">a paper by Watters et. al</a> - the assumption that the factors of variation $\mathbf{c}$ <em>align</em> with the standard basis spanning $\mathbf{z}$. By <em>alignment</em> here we mean that there is a one-to-one correspondence between the factors of variation and the standard basis vectors of the latent space. As demonstrated in the paper, and below, this is not necessarily always the case.</p>
+<p>While intuitive, there's a major assumption in that form of visual evaluation which has been emphasized in <a href="https://arxiv.org/abs/1901.07017">a paper by Watters et. al</a> - the assumption that the factors of variation $\mathbf{c} = \{$x pos, y pos, size, color$\}$ <em>align</em> with the standard basis spanning $\mathbf{z}$. By <em>alignment</em> here we mean that there is a one-to-one correspondence between individual factors of variation and the basis vectors of the latent space. As demonstrated in the paper, and below, this is not necessarily always the case.</p>
 <h2 id="positional-variations">Positional Variations</h2>
 <p>All experiments are aimed at reproducing some of the results from the <a href="https://arxiv.org/abs/1901.07017">Spatial Broadcast Decoder paper by Watters et. al</a>. Since we want to have neat visualisations we constrain ourselves to 2D. All the data that we use is a modification of the <a href="https://github.com/deepmind/dsprites-dataset">Deepmind dSprites dataset</a>. In the first example we have an image of a single ellipse whose X and Y positions can vary - 32 possible values for each. The X and Y position variations are the conceptually orthogonal notions $\mathbf{c} = \{c_0, c_1\}$, implicitly contained in the image pixels.</p>
-<p>The trained model is a convolutional VAE with a spatial broadcast decoder and $|\mathbf{z}|$ = 8 - example implementation <a href="https://github.com/yordanh/sbd-torch">here</a>. The question is whether we can have any 2 out of the 8 dimensions of $\mathbf{z}$ to be equivallent to $\mathbf{c}$. This is inspected in the following manner - after training, all the images are encoded and the two dimensions with smallest average variance predictions are identified as good candidates for encoding $\mathbf{c} = \{c_0, c_1\}$, following the rationale of the original paper.</p>
 
 
 
@@ -773,20 +772,21 @@ Sugggestion - read the article with a light background for better experience.
 <figure>
 
 
-  <a data-fancybox="" href="./img/data_pos.png" data-caption="Data with two factors of variation - $c_0 \equiv$ X-position (32 values, green line) and $c_1 \equiv$ Y-position (32 values, red line) of the ellipse; (top) random data samples from (bottom) the uniform distribution over $\mathbf{c}$">
+  <a data-fancybox="" href="./img/data_pos.png" data-caption="Data with two factors of variation - $c_0 \equiv$ X-position (32 values, green line) and $c_1 \equiv$ Y-position (32 values, red line) of the ellipse; (top) random samples from (bottom) the uniform distribution over $\mathbf{c}$">
 <img data-src="./img/data_pos.png" class="lazyload" alt="" ></a>
 
 
   
   
   <figcaption>
-    Data with two factors of variation - $c_0 \equiv$ X-position (32 values, green line) and $c_1 \equiv$ Y-position (32 values, red line) of the ellipse; <strong>(top)</strong> random data samples from <strong>(bottom)</strong> the uniform distribution over $\mathbf{c}$
+    Data with two factors of variation - $c_0 \equiv$ X-position (32 values, green line) and $c_1 \equiv$ Y-position (32 values, red line) of the ellipse; <strong>(top)</strong> random samples from <strong>(bottom)</strong> the uniform distribution over $\mathbf{c}$
   </figcaption>
 
 
 </figure>
 
-<h3 id="beta--1">Beta = 1</h3>
+<p>The trained model is a convolutional <a href="https://openreview.net/forum?id=Sy2fzU9gl">$\beta$-VAE</a> with a spatial broadcast decoder and size for the latent space $|\mathbf{z}|$ = 8 - example implementation <a href="https://github.com/yordanh/sbd-torch">here</a>. The question is whether we can have any 2 out of the 8 dimensions of $\mathbf{z}$ to be equivallent to $\mathbf{c}$. This is inspected in the following manner - after training, all the images are encoded and the two dimensions with smallest average variance predictions are identified as good candidates for encoding $\mathbf{c} = \{c_0, c_1\}$, following the rationale of the original paper.</p>
+<h3 id="beta--1">$\beta$ = 1</h3>
 <p>
 
 
@@ -803,14 +803,14 @@ Sugggestion - read the article with a light background for better experience.
 <figure>
 
 
-  <a data-fancybox="" href="./img/single_beta_1.png" data-caption="Example results for a disentangled but unaligned representation after training a Beta-VAE (Beta=1): (left) histogram of average predicted variances for each latent dimension; (middle) true distribution of $c_0$ and $c_1$; (right) projection of $c_0$ and $c_1$ in the subspace of $\mathbf{z}$ spanned by the two vectors with smallest predicted variance (most informative)">
+  <a data-fancybox="" href="./img/single_beta_1.png" data-caption="Example results for a disentangled but unaligned representation after training a $\beta$-VAE ($\beta$=1): (left) histogram of average predicted variances for each latent dimension; (middle) true distribution of $c_0$ and $c_1$; (right) projection of $c_0$ and $c_1$ in the subspace of $\mathbf{z}$ spanned by the two vectors with smallest predicted variance (most informative)">
 <img data-src="./img/single_beta_1.png" class="lazyload" alt="" ></a>
 
 
   
   
   <figcaption>
-    Example results for a <strong>disentangled</strong> but <strong>unaligned</strong> representation after training a Beta-VAE (Beta=1): <strong>(left)</strong> histogram of average predicted variances for each latent dimension; <strong>(middle)</strong> true distribution of $c_0$ and $c_1$; <strong>(right)</strong> projection of $c_0$ and $c_1$ in the subspace of $\mathbf{z}$ spanned by the two vectors with smallest predicted variance (most informative)
+    Example results for a <strong>disentangled</strong> but <strong>unaligned</strong> representation after training a $\beta$-VAE ($\beta$=1): <strong>(left)</strong> histogram of average predicted variances for each latent dimension; <strong>(middle)</strong> true distribution of $c_0$ and $c_1$; <strong>(right)</strong> projection of $c_0$ and $c_1$ in the subspace of $\mathbf{z}$ spanned by the two vectors with smallest predicted variance (most informative)
   </figcaption>
 
 
@@ -903,7 +903,8 @@ Sugggestion - read the article with a light background for better experience.
 
 </figure>
 </p>
-<h3 id="beta--10">Beta = 10</h3>
+<p>The same experiment is repeated 10 times. It is interesting to see that even though the bottleneck layer of the VAE is consistently <em>disentangled</em> - the square of observed values for the factors of variation is preserved as such in the latent space - it is often <em>unaligned</em> - the square is rotated. It is worth noting that the 2D subspace of $\mathbf{z}$ representing $\mathbf{c}$ is so nicely disentangled mainly due to the inductive biases the model has - i.e. the spatial broadcast decoder (as discussed in the original paper). However, that's a topic for future post, axis alignment is what we focus on here.</p>
+<h3 id="beta--10">$\beta$ = 10</h3>
 <p>One way to account for the observed rotation of the learned representations is by tuning the coefficient of the KL divergence in the loss and enforcing more independce between the latent vectors $\mathbf{z}$. For the keen, there are examples in the literature for more principled ways of enforcing such constraints - e.g. <a href="https://arxiv.org/abs/1802.04942">1</a> and <a href="http://proceedings.mlr.press/v89/esmaeili19a/esmaeili19a.pdf">2</a>. As seen below, increasing $\beta$ does lead to more consistent disentanglement and alignment - perturbing the basis vectors of $\mathbf{z}$ and the latent projections of $\mathbf{c}$ contain the same conceptual information.</p>
 <p>
 
@@ -921,14 +922,14 @@ Sugggestion - read the article with a light background for better experience.
 <figure>
 
 
-  <a data-fancybox="" href="./img/single_beta_10.png" data-caption="Example results for a disentangled and aligned representation after training a Beta-VAE (Beta=10); rest is the same as above.">
+  <a data-fancybox="" href="./img/single_beta_10.png" data-caption="Example results for a disentangled and aligned representation after training a $\beta$-VAE ($\beta$=10); rest is the same as above.">
 <img data-src="./img/single_beta_10.png" class="lazyload" alt="" ></a>
 
 
   
   
   <figcaption>
-    Example results for a <strong>disentangled</strong> and <strong>aligned</strong> representation after training a Beta-VAE (Beta=10); rest is the same as above.
+    Example results for a <strong>disentangled</strong> and <strong>aligned</strong> representation after training a $\beta$-VAE ($\beta$=10); rest is the same as above.
   </figcaption>
 
 
@@ -1021,10 +1022,9 @@ Sugggestion - read the article with a light background for better experience.
 
 </figure>
 </p>
-<p><em>It is worth noting that tuning loss coefficients like $\beta$ is very case-by-case and dataset-specific.</em></p>
+<p><em>Tuning coefficients of separate terms in the optimised loss function, like $\beta$, can be very case-by-case and dataset-specific.</em></p>
 <h2 id="color-variations">Color Variations</h2>
-<p>The data used in the two experiments above contains only spatial variations for which the Spatial Broadcast Decoder (which we also use) was specifically designed. Out of interest we repeat the same two experiments, but this time with data that has no spatial variations, only color ones.</p>
-<h3 id="data">Data</h3>
+<p>The data used in the two experiments above contains only spatial variations for which the Spatial Broadcast Decoder was specifically designed. Out of interest we repeat the same two experiments, but this time with data that has no spatial variations, only color-based ones.</p>
 
 
 
@@ -1054,7 +1054,8 @@ Sugggestion - read the article with a light background for better experience.
 
 </figure>
 
-<h3 id="epochs--100-beta--1">Epochs = 100; Beta = 1</h3>
+<p>In the following two experiments instead of $\beta$ we explore how does the length of training affect the learned representations.</p>
+<h3 id="epochs--100-beta--1">Epochs = 100; $\beta$ = 1</h3>
 <p>
 
 
@@ -1071,14 +1072,14 @@ Sugggestion - read the article with a light background for better experience.
 <figure>
 
 
-  <a data-fancybox="" href="./img/color_epoch_100.png" data-caption="Example results for a disentangled but unaligned representation after training a Beta-VAE (Beta=1) for 100 epochs; rest is the same as above.">
+  <a data-fancybox="" href="./img/color_epoch_100.png" data-caption="Example results for a disentangled but unaligned representation after training a $\beta$-VAE ($\beta$=1) for 100 epochs; rest is the same as above.">
 <img data-src="./img/color_epoch_100.png" class="lazyload" alt="" ></a>
 
 
   
   
   <figcaption>
-    Example results for a <strong>disentangled</strong> but <strong>unaligned</strong> representation after training a Beta-VAE (Beta=1) for 100 epochs; rest is the same as above.
+    Example results for a <strong>disentangled</strong> but <strong>unaligned</strong> representation after training a $\beta$-VAE ($\beta$=1) for 100 epochs; rest is the same as above.
   </figcaption>
 
 
@@ -1171,7 +1172,7 @@ Sugggestion - read the article with a light background for better experience.
 
 </figure>
 </p>
-<h3 id="epochs--300-beta--1">Epochs = 300; Beta = 1</h3>
+<h3 id="epochs--300-beta--1">Epochs = 300; $\beta$ = 1</h3>
 <p>Instead of varying $\beta$, here we vary the number of training epochs. Nonetheless a similar phenomenon is illustrated - depending on how the model is optimised, the learned manifold $\mathbf{z}$ could be disentangled, even though it does not appear as such upon the standard visual inspection following a linear interpolation along the basis vectors.</p>
 <p>
 
@@ -1189,14 +1190,14 @@ Sugggestion - read the article with a light background for better experience.
 <figure>
 
 
-  <a data-fancybox="" href="./img/color_epoch_300.png" data-caption="Example results for a disentangled but unaligned representation after training a Beta-VAE (Beta=1) for 300 epochs; rest is the same as above.">
+  <a data-fancybox="" href="./img/color_epoch_300.png" data-caption="Example results for a disentangled and aligned representation after training a $\beta$-VAE ($\beta$=1) for 300 epochs; rest is the same as above.">
 <img data-src="./img/color_epoch_300.png" class="lazyload" alt="" ></a>
 
 
   
   
   <figcaption>
-    Example results for a <strong>disentangled</strong> but <strong>unaligned</strong> representation after training a Beta-VAE (Beta=1) for 300 epochs; rest is the same as above.
+    Example results for a <strong>disentangled</strong> and <strong>aligned</strong> representation after training a $\beta$-VAE ($\beta$=1) for 300 epochs; rest is the same as above.
   </figcaption>
 
 
