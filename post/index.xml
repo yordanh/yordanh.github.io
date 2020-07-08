@@ -51,8 +51,8 @@
 &lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;./img/data_pos.png&#34; data-caption=&#34;Data with two factors of variation - $c_0 \equiv$ X-position (32 values, green line) and $c_1 \equiv$ Y-position (32 values, red line) of the ellipse; (top) random samples from (bottom) the uniform distribution over $\mathbf{c}$&#34;&gt;
-&lt;img data-src=&#34;./img/data_pos.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./img/data_pos.jpg&#34; data-caption=&#34;Data with two factors of variation - $c_0 \equiv$ X-position (32 values, green line) and $c_1 \equiv$ Y-position (32 values, red line) of the ellipse; (top) random samples from (bottom) the uniform distribution over $\mathbf{c}$&#34;&gt;
+&lt;img data-src=&#34;./img/data_pos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
   
@@ -320,8 +320,8 @@
 &lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;./img/data_color.png&#34; data-caption=&#34;Data with two factors of variation - $c_0 \equiv$ Object color (32 values, green line) and $c_1 \equiv$ Background color (32 values, red line); (top) random data samples from (bottom) the uniform distribution over $\mathbf{c}$&#34;&gt;
-&lt;img data-src=&#34;./img/data_color.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./img/data_color.jpg&#34; data-caption=&#34;Data with two factors of variation - $c_0 \equiv$ Object color (32 values, green line) and $c_1 \equiv$ Background color (32 values, red line); (top) random data samples from (bottom) the uniform distribution over $\mathbf{c}$&#34;&gt;
+&lt;img data-src=&#34;./img/data_color.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
   
