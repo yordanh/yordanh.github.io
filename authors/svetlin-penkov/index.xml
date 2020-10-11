@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Svetlin Penkov | Yordan Hristov</title>
-    <link>https://yordanh.guthub.io/authors/svetlin-penkov/</link>
-      <atom:link href="https://yordanh.guthub.io/authors/svetlin-penkov/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://yordanh.github.io/authors/svetlin-penkov/</link>
+      <atom:link href="https://yordanh.github.io/authors/svetlin-penkov/index.xml" rel="self" type="application/rss+xml" />
     <description>Svetlin Penkov</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yordanh.guthub.io/img/icon-192.png</url>
+      <url>https://yordanh.github.io/img/icon-192.png</url>
       <title>Svetlin Penkov</title>
-      <link>https://yordanh.guthub.io/authors/svetlin-penkov/</link>
+      <link>https://yordanh.github.io/authors/svetlin-penkov/</link>
     </image>
     
     <item>
       <title>Grounding Symbols in Multi-Modal Instructions</title>
-      <link>https://yordanh.guthub.io/publication/acl17/</link>
+      <link>https://yordanh.github.io/publication/acl17/</link>
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/publication/acl17/</guid>
+      <guid>https://yordanh.github.io/publication/acl17/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>

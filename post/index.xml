@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Yordan Hristov</title>
-    <link>https://yordanh.guthub.io/post/</link>
-      <atom:link href="https://yordanh.guthub.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://yordanh.github.io/post/</link>
+      <atom:link href="https://yordanh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://yordanh.guthub.io/img/icon-192.png</url>
+      <url>https://yordanh.github.io/img/icon-192.png</url>
       <title>Posts</title>
-      <link>https://yordanh.guthub.io/post/</link>
+      <link>https://yordanh.github.io/post/</link>
     </image>
     
     <item>
       <title>Disentanglement != Axis Alignment</title>
-      <link>https://yordanh.guthub.io/post/0_disentanglement_not_axis_alignment/</link>
+      <link>https://yordanh.github.io/post/0_disentanglement_not_axis_alignment/</link>
       <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/post/0_disentanglement_not_axis_alignment/</guid>
+      <guid>https://yordanh.github.io/post/0_disentanglement_not_axis_alignment/</guid>
       <description>&lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; - The bottleneck layer of a VAE might be &lt;strong&gt;disentangled, up to a rotation&lt;/strong&gt;, which might make it look entangled upon the standard visual inspection following a linear latent axis interpolation. An additional PCA step could be all one needs.&lt;/p&gt;
 &lt;hr&gt;

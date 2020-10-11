@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paper | Yordan Hristov</title>
-    <link>https://yordanh.guthub.io/tags/paper/</link>
-      <atom:link href="https://yordanh.guthub.io/tags/paper/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://yordanh.github.io/tags/paper/</link>
+      <atom:link href="https://yordanh.github.io/tags/paper/index.xml" rel="self" type="application/rss+xml" />
     <description>Paper</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yordanh.guthub.io/img/icon-192.png</url>
+      <url>https://yordanh.github.io/img/icon-192.png</url>
       <title>Paper</title>
-      <link>https://yordanh.guthub.io/tags/paper/</link>
+      <link>https://yordanh.github.io/tags/paper/</link>
     </image>
     
     <item>
       <title>Learning from Demonstration with Weakly Supervised Disentanglement</title>
-      <link>https://yordanh.guthub.io/publication/weak-label-lfd/</link>
+      <link>https://yordanh.github.io/publication/weak-label-lfd/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/publication/weak-label-lfd/</guid>
+      <guid>https://yordanh.github.io/publication/weak-label-lfd/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -24,9 +24,9 @@
     
     <item>
       <title>Disentangled Relational Representations for Explaining and Learning from Demonstration</title>
-      <link>https://yordanh.guthub.io/publication/corl19-explain-n-repeat/</link>
+      <link>https://yordanh.github.io/publication/corl19-explain-n-repeat/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/publication/corl19-explain-n-repeat/</guid>
+      <guid>https://yordanh.github.io/publication/corl19-explain-n-repeat/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -34,9 +34,9 @@
     
     <item>
       <title>Hybrid system identification using switching density networks</title>
-      <link>https://yordanh.guthub.io/publication/corl19-sdn/</link>
+      <link>https://yordanh.github.io/publication/corl19-sdn/</link>
       <pubDate>Tue, 29 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/publication/corl19-sdn/</guid>
+      <guid>https://yordanh.github.io/publication/corl19-sdn/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -44,9 +44,9 @@
     
     <item>
       <title>Using Causal Analysis to Learn Specifications from Task Demonstrations</title>
-      <link>https://yordanh.guthub.io/publication/aamas19/</link>
+      <link>https://yordanh.github.io/publication/aamas19/</link>
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/publication/aamas19/</guid>
+      <guid>https://yordanh.github.io/publication/aamas19/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -54,9 +54,9 @@
     
     <item>
       <title>DynoPlan: Combining Motion Planning and Deep Neural Network based Controllers for Safe HRL</title>
-      <link>https://yordanh.guthub.io/publication/rldm19/</link>
+      <link>https://yordanh.github.io/publication/rldm19/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/publication/rldm19/</guid>
+      <guid>https://yordanh.github.io/publication/rldm19/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -64,9 +64,9 @@
     
     <item>
       <title>Interpretable Latent Spaces for Learning from Demonstration</title>
-      <link>https://yordanh.guthub.io/publication/corl18/</link>
+      <link>https://yordanh.github.io/publication/corl18/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/publication/corl18/</guid>
+      <guid>https://yordanh.github.io/publication/corl18/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -74,9 +74,9 @@
     
     <item>
       <title>Grounding Symbols in Multi-Modal Instructions</title>
-      <link>https://yordanh.guthub.io/publication/acl17/</link>
+      <link>https://yordanh.github.io/publication/acl17/</link>
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/publication/acl17/</guid>
+      <guid>https://yordanh.github.io/publication/acl17/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>

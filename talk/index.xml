@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks | Yordan Hristov</title>
-    <link>https://yordanh.guthub.io/talk/</link>
-      <atom:link href="https://yordanh.guthub.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://yordanh.github.io/talk/</link>
+      <atom:link href="https://yordanh.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://yordanh.guthub.io/img/icon-192.png</url>
+      <url>https://yordanh.github.io/img/icon-192.png</url>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://yordanh.guthub.io/talk/</link>
+      <link>https://yordanh.github.io/talk/</link>
     </image>
     
     <item>
       <title>Accepted paper at RSS 20 workshop in Imitation Learning</title>
-      <link>https://yordanh.guthub.io/talk/rss20-workshop/</link>
+      <link>https://yordanh.github.io/talk/rss20-workshop/</link>
       <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/talk/rss20-workshop/</guid>
+      <guid>https://yordanh.github.io/talk/rss20-workshop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Presented at the Edinburgh ML Meetup</title>
-      <link>https://yordanh.guthub.io/talk/ml-meetup/</link>
+      <link>https://yordanh.github.io/talk/ml-meetup/</link>
       <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/talk/ml-meetup/</guid>
+      <guid>https://yordanh.github.io/talk/ml-meetup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Best paper runner-up award at the Conference on Robot Learning 2019</title>
-      <link>https://yordanh.guthub.io/talk/best-paper-runner-up/</link>
+      <link>https://yordanh.github.io/talk/best-paper-runner-up/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/talk/best-paper-runner-up/</guid>
+      <guid>https://yordanh.github.io/talk/best-paper-runner-up/</guid>
       <description></description>
     </item>
     

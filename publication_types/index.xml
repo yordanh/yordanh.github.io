@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication_types | Yordan Hristov</title>
-    <link>https://yordanh.guthub.io/publication_types/</link>
-      <atom:link href="https://yordanh.guthub.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://yordanh.github.io/publication_types/</link>
+      <atom:link href="https://yordanh.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yordanh.guthub.io/img/icon-192.png</url>
+      <url>https://yordanh.github.io/img/icon-192.png</url>
       <title>Publication_types</title>
-      <link>https://yordanh.guthub.io/publication_types/</link>
+      <link>https://yordanh.github.io/publication_types/</link>
     </image>
     
     <item>
       <title>3</title>
-      <link>https://yordanh.guthub.io/publication_types/3/</link>
+      <link>https://yordanh.github.io/publication_types/3/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/publication_types/3/</guid>
+      <guid>https://yordanh.github.io/publication_types/3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2</title>
-      <link>https://yordanh.guthub.io/publication_types/2/</link>
+      <link>https://yordanh.github.io/publication_types/2/</link>
       <pubDate>Mon, 20 Apr 2020 23:00:06 +0100</pubDate>
-      <guid>https://yordanh.guthub.io/publication_types/2/</guid>
+      <guid>https://yordanh.github.io/publication_types/2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>1</title>
-      <link>https://yordanh.guthub.io/publication_types/1/</link>
+      <link>https://yordanh.github.io/publication_types/1/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/publication_types/1/</guid>
+      <guid>https://yordanh.github.io/publication_types/1/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Yordan Hristov</title>
-    <link>https://yordanh.guthub.io/tags/</link>
-      <atom:link href="https://yordanh.guthub.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://yordanh.github.io/tags/</link>
+      <atom:link href="https://yordanh.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yordanh.guthub.io/img/icon-192.png</url>
+      <url>https://yordanh.github.io/img/icon-192.png</url>
       <title>Tags</title>
-      <link>https://yordanh.guthub.io/tags/</link>
+      <link>https://yordanh.github.io/tags/</link>
     </image>
     
     <item>
       <title>Paper</title>
-      <link>https://yordanh.guthub.io/tags/paper/</link>
+      <link>https://yordanh.github.io/tags/paper/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/tags/paper/</guid>
+      <guid>https://yordanh.github.io/tags/paper/</guid>
       <description></description>
     </item>
     

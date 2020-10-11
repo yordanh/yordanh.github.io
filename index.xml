@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yordan Hristov</title>
-    <link>https://yordanh.guthub.io/</link>
-      <atom:link href="https://yordanh.guthub.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://yordanh.github.io/</link>
+      <atom:link href="https://yordanh.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Yordan Hristov</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yordanh.guthub.io/img/icon-192.png</url>
+      <url>https://yordanh.github.io/img/icon-192.png</url>
       <title>Yordan Hristov</title>
-      <link>https://yordanh.guthub.io/</link>
+      <link>https://yordanh.github.io/</link>
     </image>
     
     <item>
       <title>Disentanglement != Axis Alignment</title>
-      <link>https://yordanh.guthub.io/post/0_disentanglement_not_axis_alignment/</link>
+      <link>https://yordanh.github.io/post/0_disentanglement_not_axis_alignment/</link>
       <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/post/0_disentanglement_not_axis_alignment/</guid>
+      <guid>https://yordanh.github.io/post/0_disentanglement_not_axis_alignment/</guid>
       <description>&lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; - The bottleneck layer of a VAE might be &lt;strong&gt;disentangled, up to a rotation&lt;/strong&gt;, which might make it look entangled upon the standard visual inspection following a linear latent axis interpolation. An additional PCA step could be all one needs.&lt;/p&gt;
 &lt;hr&gt;
@@ -573,9 +573,9 @@
     
     <item>
       <title>Learning from Demonstration with Weakly Supervised Disentanglement</title>
-      <link>https://yordanh.guthub.io/publication/weak-label-lfd/</link>
+      <link>https://yordanh.github.io/publication/weak-label-lfd/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/publication/weak-label-lfd/</guid>
+      <guid>https://yordanh.github.io/publication/weak-label-lfd/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -583,41 +583,41 @@
     
     <item>
       <title>Accepted paper at RSS 20 workshop in Imitation Learning</title>
-      <link>https://yordanh.guthub.io/talk/rss20-workshop/</link>
+      <link>https://yordanh.github.io/talk/rss20-workshop/</link>
       <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/talk/rss20-workshop/</guid>
+      <guid>https://yordanh.github.io/talk/rss20-workshop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Composing Diverse Policies for Temporally Extended Tasks</title>
-      <link>https://yordanh.guthub.io/publication/ral20/</link>
+      <link>https://yordanh.github.io/publication/ral20/</link>
       <pubDate>Mon, 20 Apr 2020 23:00:06 +0100</pubDate>
-      <guid>https://yordanh.guthub.io/publication/ral20/</guid>
+      <guid>https://yordanh.github.io/publication/ral20/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Presented at the Edinburgh ML Meetup</title>
-      <link>https://yordanh.guthub.io/talk/ml-meetup/</link>
+      <link>https://yordanh.github.io/talk/ml-meetup/</link>
       <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/talk/ml-meetup/</guid>
+      <guid>https://yordanh.github.io/talk/ml-meetup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Best paper runner-up award at the Conference on Robot Learning 2019</title>
-      <link>https://yordanh.guthub.io/talk/best-paper-runner-up/</link>
+      <link>https://yordanh.github.io/talk/best-paper-runner-up/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/talk/best-paper-runner-up/</guid>
+      <guid>https://yordanh.github.io/talk/best-paper-runner-up/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Disentangled Relational Representations for Explaining and Learning from Demonstration</title>
-      <link>https://yordanh.guthub.io/publication/corl19-explain-n-repeat/</link>
+      <link>https://yordanh.github.io/publication/corl19-explain-n-repeat/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/publication/corl19-explain-n-repeat/</guid>
+      <guid>https://yordanh.github.io/publication/corl19-explain-n-repeat/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -625,9 +625,9 @@
     
     <item>
       <title>Hybrid system identification using switching density networks</title>
-      <link>https://yordanh.guthub.io/publication/corl19-sdn/</link>
+      <link>https://yordanh.github.io/publication/corl19-sdn/</link>
       <pubDate>Tue, 29 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/publication/corl19-sdn/</guid>
+      <guid>https://yordanh.github.io/publication/corl19-sdn/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -635,9 +635,9 @@
     
     <item>
       <title>Using Causal Analysis to Learn Specifications from Task Demonstrations</title>
-      <link>https://yordanh.guthub.io/publication/aamas19/</link>
+      <link>https://yordanh.github.io/publication/aamas19/</link>
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/publication/aamas19/</guid>
+      <guid>https://yordanh.github.io/publication/aamas19/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -645,9 +645,9 @@
     
     <item>
       <title>Slides</title>
-      <link>https://yordanh.guthub.io/slides/example/</link>
+      <link>https://yordanh.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/slides/example/</guid>
+      <guid>https://yordanh.github.io/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34;&gt;Academic&lt;/a&gt; | &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -768,9 +768,9 @@ Three
     
     <item>
       <title>DynoPlan: Combining Motion Planning and Deep Neural Network based Controllers for Safe HRL</title>
-      <link>https://yordanh.guthub.io/publication/rldm19/</link>
+      <link>https://yordanh.github.io/publication/rldm19/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/publication/rldm19/</guid>
+      <guid>https://yordanh.github.io/publication/rldm19/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -778,9 +778,9 @@ Three
     
     <item>
       <title>Interpretable Latent Spaces for Learning from Demonstration</title>
-      <link>https://yordanh.guthub.io/publication/corl18/</link>
+      <link>https://yordanh.github.io/publication/corl18/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/publication/corl18/</guid>
+      <guid>https://yordanh.github.io/publication/corl18/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -788,9 +788,9 @@ Three
     
     <item>
       <title>Grounding Symbols in Multi-Modal Instructions</title>
-      <link>https://yordanh.guthub.io/publication/acl17/</link>
+      <link>https://yordanh.github.io/publication/acl17/</link>
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/publication/acl17/</guid>
+      <guid>https://yordanh.github.io/publication/acl17/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Yordan Hristov</title>
-    <link>https://yordanh.guthub.io/authors/</link>
-      <atom:link href="https://yordanh.guthub.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://yordanh.github.io/authors/</link>
+      <atom:link href="https://yordanh.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yordanh.guthub.io/img/icon-192.png</url>
+      <url>https://yordanh.github.io/img/icon-192.png</url>
       <title>Authors</title>
-      <link>https://yordanh.guthub.io/authors/</link>
+      <link>https://yordanh.github.io/authors/</link>
     </image>
     
     <item>
       <title></title>
-      <link>https://yordanh.guthub.io/authors/admin/</link>
+      <link>https://yordanh.github.io/authors/admin/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/authors/admin/</guid>
+      <guid>https://yordanh.github.io/authors/admin/</guid>
       <description>&lt;p&gt;PhD student at the &lt;a href=&#34;http://rad.inf.ed.ac.uk&#34;&gt;Robust Autonomy and Decisions group&lt;/a&gt;, part of the &lt;a href=&#34;http://web.inf.ed.ac.uk/ipab&#34;&gt;Insitute for Perception, Action and Behaviour&lt;/a&gt; at the University of Edinburgh. I am supervised by &lt;a href=&#34;https://www.edinburgh-robotics.org/academics/subramanian-ramamoorthy&#34;&gt;Dr. Subramanian Ramamoorthy&lt;/a&gt; and &lt;a href=&#34;http://homepages.inf.ed.ac.uk/alex/&#34;&gt;Prof. Alex Lascarides&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;My research interests stem from the field of Human-Robot Interaction, and revolve around achieving semantic alignment between human experts and robotic agents. I work on methods for physical symbol grounding and neural semi-supervised representation learning, utilising task-informed inductive biases.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -25,41 +25,41 @@
     
     <item>
       <title>Subramanian Ramamoorthy</title>
-      <link>https://yordanh.guthub.io/authors/subramanian-ramamoorthy/</link>
+      <link>https://yordanh.github.io/authors/subramanian-ramamoorthy/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/authors/subramanian-ramamoorthy/</guid>
+      <guid>https://yordanh.github.io/authors/subramanian-ramamoorthy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Daniel Angelov</title>
-      <link>https://yordanh.guthub.io/authors/daniel-angelov/</link>
+      <link>https://yordanh.github.io/authors/daniel-angelov/</link>
       <pubDate>Mon, 20 Apr 2020 23:00:06 +0100</pubDate>
-      <guid>https://yordanh.guthub.io/authors/daniel-angelov/</guid>
+      <guid>https://yordanh.github.io/authors/daniel-angelov/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Michael Burke</title>
-      <link>https://yordanh.guthub.io/authors/michael-burke/</link>
+      <link>https://yordanh.github.io/authors/michael-burke/</link>
       <pubDate>Mon, 20 Apr 2020 23:00:06 +0100</pubDate>
-      <guid>https://yordanh.guthub.io/authors/michael-burke/</guid>
+      <guid>https://yordanh.github.io/authors/michael-burke/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Alex Lascarides</title>
-      <link>https://yordanh.guthub.io/authors/alex-lascarides/</link>
+      <link>https://yordanh.github.io/authors/alex-lascarides/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/authors/alex-lascarides/</guid>
+      <guid>https://yordanh.github.io/authors/alex-lascarides/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Svetlin Penkov</title>
-      <link>https://yordanh.guthub.io/authors/svetlin-penkov/</link>
+      <link>https://yordanh.github.io/authors/svetlin-penkov/</link>
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://yordanh.guthub.io/authors/svetlin-penkov/</guid>
+      <guid>https://yordanh.github.io/authors/svetlin-penkov/</guid>
       <description></description>
     </item>
     
