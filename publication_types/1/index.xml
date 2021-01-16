@@ -5,12 +5,22 @@
     <link>https://yordanh.github.io/publication_types/1/</link>
       <atom:link href="https://yordanh.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 30 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 12 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yordanh.github.io/img/icon-192.png</url>
       <title>1</title>
       <link>https://yordanh.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>Learning from Demonstration with Weakly Supervised Disentanglement</title>
+      <link>https://yordanh.github.io/publication/weak-label-lfd/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://yordanh.github.io/publication/weak-label-lfd/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
     
     <item>
       <title>Disentangled Relational Representations for Explaining and Learning from Demonstration</title>
