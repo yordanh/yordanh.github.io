@@ -5,12 +5,20 @@
     <link>https://yordanh.github.io/</link>
       <atom:link href="https://yordanh.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Yordan Hristov</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 12 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yordanh.github.io/img/icon-192.png</url>
       <title>Yordan Hristov</title>
       <link>https://yordanh.github.io/</link>
     </image>
+    
+    <item>
+      <title>Accepted paper @ ICLR 21!!</title>
+      <link>https://yordanh.github.io/talk/iclr21-poster/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://yordanh.github.io/talk/iclr21-poster/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Disentanglement != Axis Alignment</title>
